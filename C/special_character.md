@@ -1,6 +1,6 @@
 기초 입출력 - 특수 문자
 
-```
+```C
 #include <stdio.h>
 
 int main(){
