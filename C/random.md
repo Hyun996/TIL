@@ -15,3 +15,24 @@ int main()
 }
 
 ```
+
+Q. 로또 생성기
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+    int lotto[6] = {0};
+    srand((unsigned)time(NULL));
+    for (int i = 0; i < 6; i++)
+    {
+        lotto[i] = rand() % 45 + 1;
+        printf("%d ", lotto[i]);
+    }
+
+    return 0;
+}
+```
